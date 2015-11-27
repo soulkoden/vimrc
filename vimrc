@@ -15,6 +15,7 @@ Plugin 'StanAngeloff/php.vim'
 Plugin 'groenewege/vim-less'
 Plugin 'mattn/emmet-vim'
 Plugin 'othree/html5.vim'
+Plugin 'altercation/vim-colors-solarized'
 
 " npm install -g esformatter
 " @https://github.com/millermedeiros/vim-esformatter
@@ -49,3 +50,8 @@ augroup END
 
 nnoremap <silent> <leader>es :Esformatter<CR>
 vnoremap <silent> <leader>es :EsformatterVisual<CR>
+
+set bg=dark
+colorscheme solarized
+
+let g:solarized_termcolors=256
