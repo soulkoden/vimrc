@@ -15,6 +15,8 @@ Plugin 'StanAngeloff/php.vim'
 Plugin 'groenewege/vim-less'
 Plugin 'mattn/emmet-vim'
 Plugin 'othree/html5.vim'
+Plugin 'fatih/vim-go'
+Plugin 'peterhoeg/vim-qml' " Зачем? Сюда https://github.com/go-qml/qml
 
 " npm install -g esformatter
 " @https://github.com/millermedeiros/vim-esformatter
