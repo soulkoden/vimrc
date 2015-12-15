@@ -17,10 +17,15 @@ Plugin 'mattn/emmet-vim'
 Plugin 'othree/html5.vim'
 Plugin 'fatih/vim-go'
 Plugin 'peterhoeg/vim-qml' " Зачем? Сюда https://github.com/go-qml/qml
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'nsf/gocode', {'rtp': 'vim/'}
+Plugin 'digitaltoad/vim-jade'
+Plugin 'wavded/vim-stylus'
 
 " npm install -g esformatter
 " @https://github.com/millermedeiros/vim-esformatter
-Plugin 'millermedeiros/esformatter' 
+"Plugin 'millermedeiros/esformatter' 
+Plugin 'pangloss/vim-javascript'
 
 call vundle#end()
 filetype plugin indent on
@@ -51,3 +56,8 @@ augroup END
 
 nnoremap <silent> <leader>es :Esformatter<CR>
 vnoremap <silent> <leader>es :EsformatterVisual<CR>
+
+"set bg=dark
+colorscheme solarized
+
+let g:solarized_termcolors=256
